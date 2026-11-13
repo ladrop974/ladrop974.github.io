@@ -1,0 +1,23 @@
+{
+  "name": "Insol’île — Les escapades d’exception à La Réunion",
+  "short_name": "Insol’île",
+  "description": "Cabanes, bulles, lodges, vans et camping-cars à La Réunion.",
+  "lang": "fr",
+  "id": "/",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#13261d",
+  "theme_color": "#1E4D3A",
+  "categories": ["travel", "lifestyle"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Explorer les escapades", "url": "/hebergements", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Mes réservations", "url": "/dashboard", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
