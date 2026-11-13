@@ -1,0 +1,1 @@
+import{r as s,i as o,a2 as u}from"./index-DSIL9mgU.js";var c=u[" useId ".trim().toString()]||(()=>{}),i=0;function d(t){const[a,r]=s.useState(c());return o(()=>{r(e=>e??String(i++))},[t]),t||(a?`radix-${a}`:"")}export{d as u};
